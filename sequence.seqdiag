@@ -1,0 +1,15 @@
+
+main -> moods: get some html
+
+moods -> createMood: get html for each mood
+
+createMood -> database: gimme moods
+database -> createMood: here ya go
+
+createMood -> moods: return html for mood
+
+note over moods: combines each mood
+
+moods -> main: heres your moods dudes
+
+note over main: modifies the dom
