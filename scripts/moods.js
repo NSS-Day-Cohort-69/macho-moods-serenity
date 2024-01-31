@@ -3,6 +3,12 @@
 // Lincoln - GetMoods
 // Joshua - Main stuff
 
+export const getMoodsHTML = () =>
+{
+    let returnHTML
+    const moods = []
+}
+
 /*
 getMoodsHTML
     -let returnHTML
