@@ -1,2 +1,5 @@
+import {getMoodsHTMl} from './moods'
 
-const container = document.querySelector('.container')
+const moodsHtml = getMoodsHTML()
+const container = document.getElementById('container')
+
