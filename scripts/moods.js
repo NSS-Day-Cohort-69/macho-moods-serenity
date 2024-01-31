@@ -24,3 +24,10 @@ getMoodHTML, taking mood
     -return returnHTML
 
 */
+const getMoodHTML=(mood)=>{
+    let moodHTML=`<div class="moodbox"></div>`
+    moodHTML+=`<div class="moodImg">${mood.imageUrl}</div>
+            <div class="moodName">${mood.name}</div>
+            <div class="moodQuotes">${mood.quotes[0]}\n ${mood.quotes}</div>`        
+    return moodHTML;
+}
