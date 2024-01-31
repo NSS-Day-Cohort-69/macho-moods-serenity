@@ -1,2 +1,5 @@
+import {getMoodsHTMl} from './moods.js'
 
-const container = document.querySelector('.container')
+const moodsHtml = getMoodsHTML()
+const container = document.getElementById('container')
+container.innerHTML = moodsHtml

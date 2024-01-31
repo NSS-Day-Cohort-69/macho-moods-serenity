@@ -3,6 +3,21 @@
 // Lincoln - GetMoods
 // Joshua - Main stuff
 
+import { getMoods } from "./database.js"
+
+export const getMoodsHTML = () =>
+{
+    const moods = getMoods()
+
+    let returnHTML = `<div class="moodsContainer">`
+    for (const mood of moods) {
+        returnHTML += getMoodHTML(mood)
+    }
+    returnHTML += `</div>`
+
+    return returnHTML
+}
+
 /*
 getMoodsHTML
     -let returnHTML
