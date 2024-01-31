@@ -1,7 +1,7 @@
 //Christina - CSS
-// - GetMood
-// - GetMoods
-// - Main stuff
+// Swathi - GetMood
+// Lincoln - GetMoods
+// Joshua - Main stuff
 
 /*
 getMoodsHTML
