@@ -1,16 +1,19 @@
-.grid {
-  display: flex;                       /* establish flex container */
-  flex-wrap: wrap;                     /* enable flex items to wrap */
-  justify-content: space-around;
-  
-}
-.cell {
-  flex: 0 0 32%;                       /* don't grow, don't shrink, width */
-  height: 50px;
-  margin-bottom: 5px;
-  background-color: #999;
-}
-.cell:nth-child(3n) {
-  background-color: #F00;
-}
-  
+
+
+   .moodsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 40%);
+    grid-template-rows: repeat(3, 30%);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100vh
+   }
+
+   .cell {
+    display: flex;
+    flex-direction: column;
+    width: 10vh;
+    text-align: left;
+    
+   }
