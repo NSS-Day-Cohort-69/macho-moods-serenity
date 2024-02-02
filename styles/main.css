@@ -1,16 +1,30 @@
-.grid {
-  display: flex;                       /* establish flex container */
-  flex-wrap: wrap;                     /* enable flex items to wrap */
-  justify-content: space-around;
-  
+
+/* 
+   .moodsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(3, 30%);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100vh
+   } */
+
+   .cell {
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+    text-align: left;
+    width: 30%;
+   }
+
+.moodsContainer {
+   display: flex;
+   justify-content: column;
+   flex-wrap: wrap;
+
 }
-.cell {
-  flex: 0 0 32%;                       /* don't grow, don't shrink, width */
-  height: 50px;
-  margin-bottom: 5px;
-  background-color: #999;
+
+.moodName {
+   text-align: center;
 }
-.cell:nth-child(3n) {
-  background-color: #F00;
-}
-  
