@@ -1,19 +1,30 @@
 
-
+/* 
    .moodsContainer {
     display: grid;
-    grid-template-columns: repeat(3, 40%);
+    grid-template-columns: repeat(3, 30%);
     grid-template-rows: repeat(3, 30%);
     align-items: center;
     justify-content: center;
     gap: 10px;
     height: 100vh
-   }
+   } */
 
    .cell {
     display: flex;
     flex-direction: column;
-    width: 10vh;
+    width: 30vh;
     text-align: left;
-    
+    width: 30%;
    }
+
+.moodsContainer {
+   display: flex;
+   justify-content: column;
+   flex-wrap: wrap;
+
+}
+
+.moodName {
+   text-align: center;
+}
