@@ -43,6 +43,7 @@ const getMoodHTML=(mood)=>{
     let moodHTML=`<div class="cell">`
     moodHTML+=`<div class="moodName">${mood.name}</div>
                 <img class="moodImg" src="${mood.imageUrl}"></img>
+                <div class="margin"></div>
                 <div class="moodDesc">
                     <span class="machoAdvice">Macho Advice:</span> 
                     <div class="moodQuotes"><p class="quote">${mood.quotes[0]}</p><p class="quote">${mood.quotes[1]}</p></div>
