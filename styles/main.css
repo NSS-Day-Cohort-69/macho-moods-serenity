@@ -10,19 +10,20 @@
     height: 100vh
    } */
 
-   .cell {
-    display: flex;
-    flex-direction: column;
-    width: 30vh;
-    text-align: left;
-    width: 30%;
-   }
+.cell {
+  display: flex;
+  flex-direction: column;
+  width: 30vh;
+  text-align: left;
+  align-items: center;
+  width: 30%;
+}
 
-.moodsContainer {
-   display: flex;
-   justify-content: column;
-   flex-wrap: wrap;
-
+.moodsContainer 
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .moodName {
@@ -35,4 +36,16 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+
+.moodImg
+{
+  width: 50%;
+}
+
+.moodDesc
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
