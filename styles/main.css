@@ -57,7 +57,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: antiquewhite;
+  background-color: gray;
   margin: 2%;
   padding: 1%;
 }
@@ -71,4 +71,10 @@ body {
 {
   width: min-content;
   margin-right: 2%;
+}
+
+.moodName
+{
+  font-size: 30px;
+  font-weight: 800;
 }
