@@ -9,6 +9,11 @@
     gap: 10px;
     height: 100vh
    } */
+body {
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwD9GL4KoY1hCmtbwd0GR36rSP4QnnsyJmAQ&usqp=CAU://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfGzHPKAG4bEL8s8_5IE8Vsh0yMvLjwHeazQ&usqp=CAU");
+   background-size: cover;
+   color: white;
+}
 
 .cell {
   display: flex;
