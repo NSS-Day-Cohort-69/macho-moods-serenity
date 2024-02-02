@@ -57,7 +57,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: antiquewhite;
+  background-color: gray;
   margin: 2%;
   padding: 1%;
 }
