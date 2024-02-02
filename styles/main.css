@@ -67,3 +67,9 @@
   width: min-content;
   margin-right: 2%;
 }
+
+.moodName
+{
+  font-size: 30px;
+  font-weight: 800;
+}
