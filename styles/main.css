@@ -1,19 +1,32 @@
 
+/* 
+   .moodsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(3, 30%);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100vh
+   } */
+
+   .cell {
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+    text-align: left;
+    width: 30%;
+   }
+
 .moodsContainer {
-  display: grid;
-  grid-template-columns: repeat(3, 30%);
-  grid-template-rows: repeat(3, 80%);
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  height: 100vh
+   display: flex;
+   justify-content: column;
+   flex-wrap: wrap;
+
 }
 
-.cell {
-  display: flex;
-  flex-direction: column;
-  width: 30vw;
-  text-align: left;
+.moodName {
+   text-align: center;
 }
 
 .pageHeader
